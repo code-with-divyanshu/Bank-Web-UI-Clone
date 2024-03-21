@@ -1,0 +1,66 @@
+.we {
+    max-width: 241px;
+        display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -8px;
+    margin-left: -8px;
+}
+
+#aboutus, 
+#services,
+#pricing,
+#testimonials,
+#contactus {
+  padding-top: 30px;
+}
+
+
+
+.fs-7 {font-size: 13px}
+
+.progress-lt .progress {
+  margin-bottom: 0;
+  height: 3px;
+  border-radius: 0;
+}
+
+.progress-lt {
+  margin-top: 30px;
+  position: relative;
+}
+
+.progress-lt span {
+  position: absolute;
+  top: 0;
+  right: 1.5%;
+  font-size: 12px;
+}
+
+.my-8 {
+  margin-top:130px;
+  margin-bottom:130px;
+}
+
+body  a{text-decoration: none;}
+
+
+@media only screen and (max-width: 468px) {
+  .sd {margin-right: 190px}
+  .cv img{min-height: 600px;}
+  .as {margin-bottom: 100px}
+  .ns {margin-top: 20px}
+  .of {margin-left: 150px}
+}
+
+
+@media only screen and (min-width: 768px) {
+  .sd {margin-left: 100px}
+  .roo {font-size: 60px;}
+  .cv img{max-height: 600px;}
+  
+  .ns {padding-left: 60px}
+  .af {padding-left: 124px!important;}
+  .aim {max-width: 535px;}
+  .of {margin-left: 300px}
+
+  }
